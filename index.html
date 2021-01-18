@@ -1,0 +1,126 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Fotomatic</title>
+    <link rel="icon" type="image/png" href="img/ic-logo.svg" sizes="16x16">
+    <!--Fonts-->    
+    <link rel="preload" href="https://fonts.googleapis.com/css2?family=Damion&family=Roboto:wght@300;400;500;700&family=Rubik&display=swap" crossorigin="crossorigin" as="font">
+    <link href="https://fonts.googleapis.com/css2?family=Damion&family=Roboto:wght@300;400;500;700&family=Rubik&display=swap" rel="stylesheet"> 
+    <!--Normalize-->
+    <link rel="preload" href="css/normalize.css" as="style">
+    <link rel="stylesheet" href="css/normalize.css">
+    <!--CSS custom-->
+    <link rel="preload" href="css/styles.css" as="style">
+    <link rel="stylesheet" href="css/styles.css">
+</head>
+<body>
+    <header>
+        <!--Navigation-->
+        <div class="container-bg">
+            <div class="container-nav">
+                <h2 class="logo"><a class="decoration negro" href="index.html">Fotomatic</a></h2>
+                <nav class="nav">
+                    <img class="iconos" src="img/ic-product-detail.svg" alt="Product detail">
+                    <img class="iconos" src="img/ic-about-us.svg" alt="About us">
+                    <a class="nav__btn decoration" href="#">Product detail</a>
+                    <a class="nav__btn decoration" href="#">About us</a>
+                    <a class="nav__btn decoration" href="#">Follow us 
+                        <img class="nav__img" src="img/instagram.png" alt="" >
+                    </a>
+                    <a class="nav__btn__join decoration" href="#">Join Us</a>
+                </nav>
+            </div>
+        </div>
+        <!--Banner-->
+        <div class="banner">
+            <div class="titulo no-margin">
+                <h2 class="no-margin">Instant</h2>
+                <h1 class="no-margin">Format Camera</h1>
+            </div>
+            <div class="banner__info">
+                <div class="banner__info__text">
+                    <h2 class="no-margin">Instant</h2>
+                    <h1 class="no-margin">Format Camera</h1>
+                    <div class="banner__info__p">
+                        <p class="no-margin">Email us to request a demo and be in our waiting list for <span class="bold">February 2017</span> release!</p>
+                    </div>
+                    <div class="btn">
+                        <a class="decoration" href="#">Join the waiting list</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </header>
+    <main>
+        <!--Cards-->
+        <div class="cards-bg">
+            <div class="container-cards">
+                <div class="card">
+                    <div class="card__img"></div>
+                    <div class="card__info">
+                        <h2 class="no-margin">Advanced, automatic, instant</h2>
+                        <p>Shutter speed, apperture and flash output adjust automatically</p>
+                    </div>
+                </div>
+                <div class="card">
+                    <div class="card__img__2 card__img"></div>
+                    <div class="card__info">
+                        <h2 class="no-margin">Beautifully crafted inside-out</h2>
+                        <p>From the paint outside to the tiny screw inside, Fotomatic is crafted with love and 20-year of expertise</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!--Filters-->
+        <div class="filters">
+            <h2 class="no-margin filters__info__h2">Over 20+ filters to choose from</h2>
+            <p class="no-margin filters__info__p">Feed your creativity with 20 different filter designed by our eclectic in-house photographers!</p>
+            <div class="filters__imgs">  
+                <div>
+                    <picture>
+                        <source loading="lazy" srcset="img/filter-1webp.webp" type="image/webp">
+                        <img loading="lazy" class="filters__img" src="img/filter-1.png" alt="">
+                    </picture>
+                </div>
+                <div>
+                    <picture>
+                        <source loading="lazy" srcset="img/filter-2webp.webp" type="image/webp">
+                        <img loading="lazy" class="filters__img" src="img/filter-2.png" alt="">
+                    </picture>
+                </div>
+                <div>
+                    <picture>
+                        <source loading="lazy" srcset="img/filter-3webp.webp" type="image/webp">
+                        <img loading="lazy" class="filters__img" src="img/filter-3.png" alt="">
+                    </picture>
+                </div>
+                <div>
+                    <picture>
+                        <source loading="lazy" srcset="img/filter-4webp.webp" type="image/webp">
+                        <img loading="lazy" class="filters__img" src="img/filter-4.png" alt="">
+                    </picture>
+                </div>
+            </div>
+        </div>
+        <!--Phrase-->
+        <div class="phrase">
+            <p class="no-margin phrase__info">“It’s truly something that could create a brand new photography Renaissance”  <img class="phrase__img" loading="lazy" src="img/photography-logo.png" alt=""></p>
+            <img class="phrase__img--1" loading="lazy" src="img/photography-logo.png" alt="">
+        </div>
+    </main>
+    <!--Footer-->
+    <footer class="footer">
+        <div class="footer__container">
+            <div class="footer__container__element">
+                <p>© 2016 Fotomatic, All Rights Reserved</p>
+            </div>
+            <div class="footer__container__element">
+                <p>Designed in NYC</p>
+            </div>
+        </div>
+    </footer>
+    <script src="js/modernizr-custom.js"></script>
+</body>
+</html>
